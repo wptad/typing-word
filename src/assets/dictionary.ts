@@ -487,6 +487,18 @@ const chinaExam: DictResource[] = [
 // 国际考试
 const internationalExam: DictResource[] = [
   {
+    id: 'pet_1',
+    name: 'PET 词汇',
+    description: 'PET 词汇1',
+    category: '国际考试',
+    tags: ['PET'],
+    url: 'PET_1.json',
+    length: 2,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
     id: 'gmat',
     name: 'GMAT',
     description: 'GMAT 词库',
