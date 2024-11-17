@@ -493,7 +493,7 @@ const internationalExam: DictResource[] = [
     category: '国际考试',
     tags: ['PET'],
     url: 'PET_1.json',
-    length: 2,
+    length: 1315,
     translateLanguage: 'common',
     language: 'en',
     type: DictType.word
