@@ -875,6 +875,78 @@ const internationalExam: DictResource[] = [
 // 青少儿英语
 const childrenEnglish: DictResource[] = [
   {
+    id: 'beijing_1',
+    name: '一年级',
+    description: '北京版一年级',
+    category: '北京版小学英语',
+    tags: ['北京版'],
+    url: 'beijing_1.json',
+    length: 87,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
+    id: 'beijing_2',
+    name: '二年级',
+    description: '北京版二年级',
+    category: '北京版小学英语',
+    tags: ['北京版'],
+    url: 'beijing_2.json',
+    length: 154,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
+    id: 'beijing_3',
+    name: '三年级',
+    description: '北京版三年级',
+    category: '北京版小学英语',
+    tags: ['北京版'],
+    url: 'beijing_3.json',
+    length: 166,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
+    id: 'beijing_4',
+    name: '四年级',
+    description: '北京版四年级',
+    category: '北京版小学英语',
+    tags: ['北京版'],
+    url: 'beijing_4.json',
+    length: 127,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
+    id: 'beijing_5',
+    name: '五年级',
+    description: '北京版五年级',
+    category: '北京版小学英语',
+    tags: ['北京版'],
+    url: 'beijing_5.json',
+    length: 132,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
+    id: 'beijing_6',
+    name: '六年级',
+    description: '北京版六年级',
+    category: '北京版小学英语',
+    tags: ['北京版'],
+    url: 'beijing_6.json',
+    length: 138,
+    translateLanguage: 'common',
+    language: 'en',
+    type: DictType.word
+  },
+  {
     id: 'gaokao3500',
     name: '高考 3500 词',
     description: '高考常见词 3500',
@@ -2372,8 +2444,8 @@ const enArticle: DictResource[] = [
 ]
 
 export const dictionaryResources: DictResource[] = [
-  ...chinaExam,
   ...internationalExam,
+  ...chinaExam,
   ...childrenEnglish,
   ...programming,
   ...japaneseExam,
